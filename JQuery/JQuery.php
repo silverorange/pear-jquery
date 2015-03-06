@@ -43,15 +43,15 @@ class JQuery
 	public function getHtmlHeadEntrySet()
 	{
 		if (!self::$html_head_entries instanceof SwatHtmlHeadEntrySet) {
-			$filename = printf('jquery-%s.js', self::VERSION);
+			$filename = sprintf('jquery-%s.js', self::VERSION);
 			self::$html_head_entries = new SwatHtmlHeadEntrySet();
-			self::$html_head_entries->add(
+			self::$html_head_entries->addEntry(
 				new SwatJavaScriptHtmlHeadEntry(
 					'packages/jquery/javascript/'.$filename
 				)
 			);
-			return self::$html_head_entries;
 		}
+		return self::$html_head_entries;
 	}
 
 	// }}}
