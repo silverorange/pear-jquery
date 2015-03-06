@@ -31,7 +31,9 @@ $result = $package->setOptions(
 		'baseinstalldir'    => '/',
 		'packagedirectory'  => './',
 		'dir_roles'         => array(
+			'JQuery'       => 'php',
 			'www'          => 'data',
+			'dependencies' => 'data',
 			'/'            => 'data',
 		),
 		'exceptions'              => array(
@@ -59,12 +61,24 @@ $package->setNotes($notes);
 
 $package->addIgnore('package.php');
 
-$package->addMaintainer('lead', 'gauthierm', 'Mike Gauthier', 'mike@silverorange.com');
+$package->addMaintainer(
+	'lead',
+	'gauthierm',
+	'Mike Gauthier',
+	'mike@silverorange.com'
+);
+
+// This package technically has a circular dependency with the Swat package
+// because it uses SwatJavaScriptHtmlHeadEntry and SwatHtmlHeadEntrySet.
+// Ideally those parts of Swat would be split into a parent package and both
+// Swat and JQuery would depend on it.
 
 $package->setPearinstallerDep('1.4.0');
 $package->generateContents();
 
-if (isset($_GET['make']) || (isset($_SERVER['argv']) && @$_SERVER['argv'][1] == 'make')) {
+if (   isset($_GET['make'])
+	|| (isset($_SERVER['argv']) && @$_SERVER['argv'][1] == 'make')
+) {
 	$package->writePackageFile();
 } else {
 	$package->debugPackageFile();
