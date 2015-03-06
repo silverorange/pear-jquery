@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>jQuery</name>
+ <channel>pear.silverorange.com</channel>
+ <summary>A fast, small, and feature-rich JavaScript library.</summary>
+ <description>jQuery is a fast, small, and feature-rich JavaScript library. It makes things
+like HTML document traversal and manipulation, event handling, animation, and
+Ajax much simpler with an easy-to-use API that works across a multitude of
+browsers. With a combination of versatility and extensibility, jQuery has
+changed the way that millions of people write JavaScript.
+
+This package provides jQuery in a manner compatibile with silverorange PEAR
+packages.</description>
+ <lead>
+  <name>Mike Gauthier</name>
+  <user>gauthierm</user>
+  <email>mike@silverorange.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2015-03-06</date>
+ <time>14:56:59</time>
+ <version>
+  <release>1.11.2so1</release>
+  <api>1.11.2</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.html">MIT License</license>
+ <notes>
+No release notes for you!
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <dir name="dependencies">
+    <file name="jquery.yaml" role="data" />
+   </dir> <!-- /dependencies -->
+   <dir name="JQuery">
+    <file name="JQuery.php" role="php" />
+   </dir> <!-- /JQuery -->
+   <dir name="www">
+    <dir name="javascript">
+     <file name="jquery-1.11.2.js" role="data" />
+     <file name="jquery-1.11.2.min.js" role="data" />
+     <file name="jquery-1.11.2.min.map" role="data" />
+    </dir> <!-- /www/javascript -->
+   </dir> <!-- /www -->
+   <file name="LICENSE" role="doc" />
+   <file name="README.md" role="doc" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.11.2so1</release>
+    <api>1.11.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2015-03-06</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.html">MIT License</license>
+   <notes>
+No release notes for you!
+   </notes>
+  </release>
+ </changelog>
+</package>
