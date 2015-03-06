@@ -4,7 +4,7 @@
 
 require_once 'PEAR/PackageFileManager2.php';
 
-$version = '1.11.2-so1';
+$version = '1.11.2so1';
 $api_version = '1.11.2';
 $notes = <<<EOT
 No release notes for you!
@@ -73,6 +73,7 @@ $package->addMaintainer(
 // Ideally those parts of Swat would be split into a parent package and both
 // Swat and JQuery would depend on it.
 
+$package->setPhpDep('5.3.0');
 $package->setPearinstallerDep('1.4.0');
 $package->generateContents();
 
