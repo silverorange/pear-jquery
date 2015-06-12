@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+<package packagerversion="1.9.5" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
     http://pear.php.net/dtd/tasks-1.0.xsd
     http://pear.php.net/dtd/package-2.0
     http://pear.php.net/dtd/package-2.0.xsd">
- <name>jQuery</name>
+ <name>JQuery</name>
  <channel>pear.silverorange.com</channel>
  <summary>A fast, small, and feature-rich JavaScript library.</summary>
  <description>jQuery is a fast, small, and feature-rich JavaScript library. It makes things
@@ -20,10 +20,10 @@ packages.</description>
   <email>mike@silverorange.com</email>
   <active>yes</active>
  </lead>
- <date>2015-03-06</date>
- <time>14:56:59</time>
+ <date>2015-06-12</date>
+ <time>17:07:28</time>
  <version>
-  <release>1.11.2so1</release>
+  <release>1.11.2so2</release>
   <api>1.11.2</api>
  </version>
  <stability>
@@ -67,14 +67,14 @@ No release notes for you!
  <changelog>
   <release>
    <version>
-    <release>1.11.2so1</release>
+    <release>1.11.2so2</release>
     <api>1.11.2</api>
    </version>
    <stability>
     <release>stable</release>
     <api>stable</api>
    </stability>
-   <date>2015-03-06</date>
+   <date>2015-06-12</date>
    <license uri="http://www.opensource.org/licenses/mit-license.html">MIT License</license>
    <notes>
 No release notes for you!
