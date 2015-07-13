@@ -20,10 +20,10 @@ packages.</description>
   <email>mike@silverorange.com</email>
   <active>yes</active>
  </lead>
- <date>2015-06-12</date>
- <time>17:07:28</time>
+ <date>2015-07-13</date>
+ <time>10:24:15</time>
  <version>
-  <release>1.11.2so2</release>
+  <release>1.11.2so3</release>
   <api>1.11.2</api>
  </version>
  <stability>
@@ -67,14 +67,14 @@ No release notes for you!
  <changelog>
   <release>
    <version>
-    <release>1.11.2so2</release>
+    <release>1.11.2so3</release>
     <api>1.11.2</api>
    </version>
    <stability>
     <release>stable</release>
     <api>stable</api>
    </stability>
-   <date>2015-06-12</date>
+   <date>2015-07-13</date>
    <license uri="http://www.opensource.org/licenses/mit-license.html">MIT License</license>
    <notes>
 No release notes for you!
