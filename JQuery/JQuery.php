@@ -9,7 +9,7 @@ require_once 'Swat/SwatJavaScriptHtmlHeadEntry.php';
  * Gets a HTML head entry set for using jQuery
  *
  * @package   JQuery
- * @copyright 2015 silverorange
+ * @copyright 2015-2016 silverorange
  * @license   http://www.opensource.org/licenses/mit-license.html MIT License
  */
 class JQuery
