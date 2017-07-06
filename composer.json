@@ -16,8 +16,5 @@
 	},
 	"autoload": {
 		"classmap": [ "JQuery/" ]
-	},
-	"include-path": [
-		"./"
-	]
+	}
 }
