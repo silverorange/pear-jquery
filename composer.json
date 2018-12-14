@@ -11,6 +11,15 @@
 			"email": "mike@silverorange.com"
 		}
 	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.silverorange.com"
+		},
+		{
+			"packagist": false
+		}
+	],
 	"require": {
 		"php": ">=5.3.0",
 		"swat": "^5.0.0"
