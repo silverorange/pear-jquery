@@ -22,7 +22,7 @@
 	],
 	"require": {
 		"php": ">=5.3.0",
-		"swat": "^5.0.0"
+		"silverorange/swat": "^5.0.0"
 	},
 	"autoload": {
 		"classmap": [ "JQuery/" ]
