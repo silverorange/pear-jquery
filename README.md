@@ -8,5 +8,5 @@ changed the way that millions of people write JavaScript.
 
 This Package
 ============
-This package provides jQuery in a manner compatibile with silverorange PEAR
+This package provides jQuery in a manner compatibile with silverorange PHP
 packages.
