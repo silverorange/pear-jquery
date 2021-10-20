@@ -6,7 +6,7 @@
  * Gets a HTML head entry set for using jQuery
  *
  * @package   JQuery
- * @copyright 2015-2016 silverorange
+ * @copyright 2015-2021 silverorange
  * @license   http://www.opensource.org/licenses/mit-license.html MIT License
  */
 class JQuery
@@ -17,7 +17,7 @@ class JQuery
 	 * The current jQuery version. Update this when updating the bundled
 	 * version.
 	 */
-	const VERSION = '1.11.2';
+	const VERSION = '3.6.0';
 
 	// }}}
 	// {{{ protected properties
