@@ -27,4 +27,4 @@
 JQuery:
   Provides:
     # JavaScript resources
-    packages/jquery/javascript/jquery-1.11.2.js:
+    packages/jquery/javascript/jquery-3.6.0.js:
