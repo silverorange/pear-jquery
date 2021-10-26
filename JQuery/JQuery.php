@@ -40,7 +40,7 @@ class JQuery
 	public function getHtmlHeadEntrySet()
 	{
 		if (!self::$html_head_entries instanceof SwatHtmlHeadEntrySet) {
-			$filename = sprintf('jquery-%s.js', self::VERSION);
+			$filename = sprintf('jquery-%s.min.js', self::VERSION);
 			self::$html_head_entries = new SwatHtmlHeadEntrySet();
 			self::$html_head_entries->addEntry(
 				new SwatJavaScriptHtmlHeadEntry(
