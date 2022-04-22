@@ -14,15 +14,13 @@
 	"repositories": [
 		{
 			"type": "composer",
-			"url": "https://composer.silverorange.com"
-		},
-		{
-			"packagist": false
+			"url": "https://composer.silverorange.com",
+			"only": ["silverorange/*"]
 		}
 	],
 	"require": {
 		"php": ">=5.3.0",
-		"silverorange/swat": "^5.0.0"
+		"silverorange/swat": "^5.0.0 || ^6.0.0"
 	},
 	"autoload": {
 		"classmap": [ "JQuery/" ]
