@@ -13,9 +13,6 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
       - name: Setup PHP with tools
         uses: silverorange/actions-setup-php@v2
         with:
